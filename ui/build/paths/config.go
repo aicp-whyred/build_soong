@@ -74,6 +74,13 @@ func GetConfig(name string) PathConfig {
 }
 
 var Configuration = map[string]PathConfig{
+	"arm-linux-androidkernel-as":     Log,
+	"arm-linux-androidkernel-ld":     Log,
+	"arm-linux-androidkernel-gcc":     Log,
+	"arm-linux-androidkernel-ar":     Log,
+	"arm-linux-androidkernel-objcopy":     Log,
+	"arm-linux-androidkernel-nm":     Log,
+	"arm-linux-androidkernel-objdump":     Log,
 	"bash":     Allowed,
 	"bc":       Allowed,
 	"bison":    Log,
